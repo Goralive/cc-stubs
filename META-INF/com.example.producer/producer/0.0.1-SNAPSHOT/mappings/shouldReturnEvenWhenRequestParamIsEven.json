@@ -1,0 +1,21 @@
+{
+  "id" : "7fab7eb9-7e72-4dae-9f28-fe2dbc13dc3a",
+  "request" : {
+    "urlPath" : "/age",
+    "method" : "GET",
+    "queryParameters" : {
+      "year" : {
+        "equalTo" : "29/07/1989"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"sex\":\"male\",\"age\":31}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "7fab7eb9-7e72-4dae-9f28-fe2dbc13dc3a"
+}
